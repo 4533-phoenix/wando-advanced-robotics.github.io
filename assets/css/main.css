@@ -1,0 +1,60 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Ubuntu");
+html, body {
+		height: 100%;
+		overflow-x: hidden;
+		width: 100%;
+		min-height:100%;
+		height:auto;
+}
+p{
+	padding-left:3em;
+	font-family:'Ubuntu';
+	color:#e4e4e4
+}
+body {
+	background-color: #b35555;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 16pt;
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	line-height: 1.65em;
+	background-image:url('../img/bg2.png');
+	background-size:100% 100%;
+}
+h1{
+	color:rgba(255, 255, 255, 0.75);
+	font-family:'Orbitron';
+	padding-left:0.5em;
+}
+a{
+	color:#e4e4e4 !important;
+}
+a:hover {
+	border-bottom-color: transparent;
+	color: #7d7d7d !important;
+	text-decoration: none;
+}
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+.icon:before {
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+}
+ul.icons li {
+	display: inline-block;
+	padding-left:1em;
+}
+ .copyright li {
+	bottom:0px;
+	display: inline-block;
+	height: 50px;
+	position: absolute; //tells the browser to position #footer relative to #wrapper
+	bottom: 10px;
+	left: 10px !important;
+	color:#e4e4e4;
+}
