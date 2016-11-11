@@ -27,6 +27,11 @@ h1{
 	font-family:'Orbitron';
 	padding-left:0.5em;
 }
+h2{
+	color:rgba(255,255,255, 0.6);
+	font-family:"Orbitron";
+	padding-left:0.5em;
+}
 a{
 	color:#e4e4e4 !important;
 }
@@ -53,7 +58,7 @@ ul.icons li {
 	bottom:0px;
 	display: inline-block;
 	height: 50px;
-	position: absolute; //tells the browser to position #footer relative to #wrapper
+	position: absolute;
 	bottom: 10px;
 	left: 10px !important;
 	color:#e4e4e4;
